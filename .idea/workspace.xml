@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8262a8c7-afde-4b48-ad4d-3d1c63bfca58" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-    </list>
+    <list default="true" id="8262a8c7-afde-4b48-ad4d-3d1c63bfca58" name="Default" comment="" />
     <ignored path="MarketTrader.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -156,12 +154,12 @@
       <changelist id="8262a8c7-afde-4b48-ad4d-3d1c63bfca58" name="Default" comment="" />
       <created>1412176481078</created>
       <updated>1412176481078</updated>
-      <workItem from="1412176486091" duration="726000" />
+      <workItem from="1412176486091" duration="786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="726000" />
+    <option name="totallyTimeSpent" value="786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="22" width="1260" height="760" extended-state="0" />
