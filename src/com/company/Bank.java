@@ -1,15 +1,19 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by dimao on 10/1/14.
  */
 public class Bank {
-    protected List<BankAccount> accounts;
+    protected ArrayList<BankAccount> accounts = new ArrayList<BankAccount>();
 
     public void addAccount(BankAccount acc){
         accounts.add(acc);
+    }
+    public void deleteAccount(BankAccount acc){
+        accounts.remove(acc);
     }
 
 }
