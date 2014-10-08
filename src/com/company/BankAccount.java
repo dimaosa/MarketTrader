@@ -5,7 +5,7 @@ import java.awt.*;
 /**
  * Created by dimao on 10/1/14.
  */
-class BankAccount extends List{
+class BankAccount{
 
     protected String name;
     protected String password;

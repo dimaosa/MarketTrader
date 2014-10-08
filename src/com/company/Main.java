@@ -16,12 +16,23 @@ public class Main {
 
         users.stream()
                 .forEach(User::generatePass);
+        blankline();
+        printInfo(users);
+        blankline();
+        Iterator it = users.iterator();
+        users.get(users.indexOf(user1)).setName("George");
 
+        printInfo(users);
+        //nothing to commit
+    }
+
+    public static void printInfo(ArrayList<User> users){
         users.stream()
                 .forEach(User::info);
 
-
-
-        //nothing to commit
     }
+    public static void blankline(){
+        System.out.println();
+    }
+
 }
