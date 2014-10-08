@@ -6,6 +6,10 @@ import java.awt.*;
  * Created by dimao on 10/1/14.
  */
 class BankAccount extends List{
+
+    protected String name;
+    protected String password;
+
     BankAccount(String name, String password) {
         this.name = name;
         this.password = password;
@@ -26,9 +30,6 @@ class BankAccount extends List{
     public void setPassword(String password) {
         this.password = password;
     }
-
-    protected String name;
-    protected String password;
 
 
 }
