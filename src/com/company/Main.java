@@ -16,6 +16,8 @@ public class Main {
 
         users.stream()
                 .forEach(User::generatePass);
+
+
         blankline();
         printInfo(users);
         blankline();

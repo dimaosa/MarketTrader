@@ -11,7 +11,9 @@ public class User {
     protected String surname;
     protected String password;
     protected BankAccount account = new BankAccount(name, password);
-    protected Cart cart = new Cart();
+    protected Cart cart;
+    protected Order order;
+
 
     public String getName() {
         return name;
@@ -48,6 +50,7 @@ public class User {
         this.surname = surname;
         this.password = password;
     }
+
     public void info(){
         System.out.format(
                 "Name: " + this.name + "\n" +
@@ -61,6 +64,12 @@ public class User {
         this.password =  new BigInteger(30, random).toString(32);
 
     }
+
+
+    public void addOrder(){
+        cart.addOrder(this.order);
+    }
+
 
 }
 
